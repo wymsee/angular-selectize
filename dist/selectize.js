@@ -4,6 +4,7 @@
 **/
 
 require('selectize/dist/css/selectize.css');
+require('selectize/dist/css/selectize.bootstrap3.css');
 const Selectize = require('selectize/dist/js/selectize');
 
 angular.module('selectize', []).value('selectizeConfig', {}).directive("selectize", ['selectizeConfig', function(selectizeConfig) {
