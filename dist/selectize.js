@@ -1,7 +1,10 @@
 /**
  * Angular Selectize2
  * https://github.com/machineboy2045/angular-selectize
- **/
+**/
+
+require('selectize/dist/css/selectize.css');
+const Selectize = require('selectize/dist/js/seletize');
 
 angular.module('selectize', []).value('selectizeConfig', {}).directive("selectize", ['selectizeConfig', function(selectizeConfig) {
   return {

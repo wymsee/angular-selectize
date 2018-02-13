@@ -1,0 +1,25 @@
+{
+  "name": "@synconset/angular-selectize",
+  "version": "1.0.0",
+  "description": "AngularJS directive for selectize",
+  "main": "dist/selectize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wymsee/angular-selectize.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wymsee/angular-selectize/issues"
+  },
+  "homepage": "https://github.com/wymsee/angular-selectize#readme",
+  "dependencies": {
+    "selectize": "^0.12.4"
+  },
+  "publishConfig": {
+      "access": "public"
+  }
+}
